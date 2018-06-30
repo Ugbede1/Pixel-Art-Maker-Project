@@ -1,5 +1,5 @@
-// Select color input
-// Select size input
+
+// Variable declaration for height, width, color.
 var height, width, color;
 
 // When size is submitted by the user, call makeGrid()
@@ -13,7 +13,7 @@ $('#sizePicker').submit(function (event) {
 
 function makeGrid(x, y) {
 
-  // Your code goes here!
+  // Remove the table body at initialization
   $('tbody').remove();
 
   // create a tbody element inside the table first
