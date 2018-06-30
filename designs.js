@@ -9,7 +9,7 @@ $('#sizePicker').submit(function (event) {
     height = $('#inputHeight').val();
     width = $('#inputWeight').val();
     makeGrid(height, width);
-})
+});
 
 function makeGrid(x, y) {
 
@@ -32,10 +32,10 @@ function makeGrid(x, y) {
         color = $('#colorPicker').val();
 
         if ($(this).attr('style')) {
-            $(this).removeAttr('style')
+            $(this).removeAttr('style');
         } else {
             $(this).attr('style', 'background-color:' + color);
         }
-    })
+    });
 
 }
